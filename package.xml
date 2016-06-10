@@ -11,4 +11,16 @@
         <members>custlabelB</members>
         <name>CustomLabel</name>
     </types>
+    <types>
+        <members>Demo__c</members>
+        <members>Depart__c</members>
+        <members>Item__c</members>
+        <members>Office__c</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>Student__c</members>
+        <members>Vehicle__c</members>
+        <name>CustomTab</name>
+    </types>
 </Package>
