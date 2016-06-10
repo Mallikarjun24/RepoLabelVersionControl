@@ -2,6 +2,14 @@
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <version>36.0</version>
     <types>
+        <members>Case.CaseRule1</members>
+        <name>AssignmentRule</name>
+    </types>
+    <types>
+        <members>Case.ECSCaseAutoResponseRule1</members>
+        <name>AutoResponseRule</name>
+    </types>
+    <types>
         <members>Demo__c.GoalName__c</members>
         <members>Demo__c.StudentName__c</members>
         <members>custobjobj__c.custobjobjfld2__c</members>
@@ -9,6 +17,7 @@
         <name>CustomField</name>
     </types>
     <types>
+        <members>ACCL1</members>
         <members>cokelab</members>
         <members>cokelab1</members>
         <members>custlabelA</members>
@@ -18,6 +27,7 @@
         <name>CustomLabel</name>
     </types>
     <types>
+        <members>ACCObj1234__c</members>
         <members>Demo__c</members>
         <members>Depart__c</members>
         <members>Item__c</members>
@@ -29,5 +39,21 @@
         <members>Student__c</members>
         <members>Vehicle__c</members>
         <name>CustomTab</name>
+    </types>
+    <types>
+        <members>Case.ECSCaseEscalationRule1</members>
+        <name>EscalationRule</name>
+    </types>
+    <types>
+        <members>Account.Standard_Account_Match_Rule_v1_0</members>
+        <name>MatchingRule</name>
+    </types>
+    <types>
+        <members>EC_AccObj1__c.SharingCriteriaRule2</members>
+        <name>SharingCriteriaRule</name>
+    </types>
+    <types>
+        <members>EC_AccObj1__c.ECSWorkFlowRule1</members>
+        <name>WorkflowRule</name>
     </types>
 </Package>

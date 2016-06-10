@@ -42,4 +42,11 @@
         <shortDescription>label11</shortDescription>
         <value>label11</value>
     </labels>
+    <labels>
+        <fullName>ACCL1</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>ACCL1</shortDescription>
+        <value>1</value>
+    </labels>
 </CustomLabels>
