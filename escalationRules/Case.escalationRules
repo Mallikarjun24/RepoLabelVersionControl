@@ -212,4 +212,17 @@
             <escalationStartTime>CaseCreation</escalationStartTime>
         </ruleEntry>
     </escalationRule>
+    <escalationRule>
+        <fullName>ESCRule4</fullName>
+        <active>true</active>
+        <ruleEntry>
+            <businessHoursSource>None</businessHoursSource>
+            <criteriaItems>
+                <field>Case.CaseNumber</field>
+                <operation>equals</operation>
+                <value>2</value>
+            </criteriaItems>
+            <escalationStartTime>CaseCreation</escalationStartTime>
+        </ruleEntry>
+    </escalationRule>
 </EscalationRules>
