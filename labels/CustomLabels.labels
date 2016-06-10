@@ -28,4 +28,11 @@
         <shortDescription>cokelab1</shortDescription>
         <value>cokelab1</value>
     </labels>
+    <labels>
+        <fullName>label10</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>label10</shortDescription>
+        <value>label10</value>
+    </labels>
 </CustomLabels>

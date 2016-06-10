@@ -11,6 +11,7 @@
         <members>cokelab1</members>
         <members>custlabelA</members>
         <members>custlabelB</members>
+        <members>label10</members>
         <name>CustomLabel</name>
     </types>
     <types>
