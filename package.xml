@@ -4,6 +4,8 @@
     <types>
         <members>Demo__c.GoalName__c</members>
         <members>Demo__c.StudentName__c</members>
+        <members>custobjobj__c.custobjobjfld2__c</members>
+        <members>custobjobj__c.custobjobjfld__c</members>
         <name>CustomField</name>
     </types>
     <types>
@@ -12,6 +14,7 @@
         <members>custlabelA</members>
         <members>custlabelB</members>
         <members>label10</members>
+        <members>label11</members>
         <name>CustomLabel</name>
     </types>
     <types>

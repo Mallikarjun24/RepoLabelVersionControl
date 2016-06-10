@@ -35,4 +35,11 @@
         <shortDescription>label10</shortDescription>
         <value>label10</value>
     </labels>
+    <labels>
+        <fullName>label11</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>label11</shortDescription>
+        <value>label11</value>
+    </labels>
 </CustomLabels>
