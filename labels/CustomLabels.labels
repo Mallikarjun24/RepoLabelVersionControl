@@ -56,4 +56,12 @@
         <shortDescription>ARCutLabel1</shortDescription>
         <value>1</value>
     </labels>
+    <labels>
+        <fullName>ArCustomlabel6</fullName>
+        <categories>Edit  cocomment for  ArCustomlabel67</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>ArCustomlabel6</shortDescription>
+        <value>2</value>
+    </labels>
 </CustomLabels>

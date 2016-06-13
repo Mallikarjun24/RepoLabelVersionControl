@@ -27,6 +27,7 @@
     <types>
         <members>ACCL1</members>
         <members>ARCutLabel1</members>
+        <members>ArCustomlabel6</members>
         <members>cokelab</members>
         <members>cokelab1</members>
         <members>custlabelA</members>
@@ -37,6 +38,7 @@
     </types>
     <types>
         <members>ACCObj1234__c</members>
+        <members>ACObject25__c</members>
         <members>AOBTest1__c</members>
         <members>Demo__c</members>
         <members>Depart__c</members>
