@@ -2,6 +2,11 @@
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <version>36.0</version>
     <types>
+        <members>c3</members>
+        <members>pone</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
         <members>Case.CaseRule1</members>
         <members>Case.Standard</members>
         <name>AssignmentRule</name>
