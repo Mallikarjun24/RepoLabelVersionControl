@@ -68,6 +68,18 @@
         <name>SharingCriteriaRule</name>
     </types>
     <types>
+        <members>SAccOb1__c.SharingOwnerRuleT1</members>
+        <name>SharingOwnerRule</name>
+    </types>
+    <types>
+        <members>QA_AccObj2__c.AR_sharing_reason2__c</members>
+        <name>SharingReason</name>
+    </types>
+    <types>
+        <members>Account.Billing</members>
+        <name>WebLink</name>
+    </types>
+    <types>
         <members>EC_AccObj1__c.ECSWorkFlowRule1</members>
         <name>WorkflowRule</name>
     </types>
