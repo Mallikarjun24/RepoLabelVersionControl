@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
-    <version>36.0</version>
+    <version>37.0</version>
     <types>
+        <members>AcCNew123</members>
+        <members>AccNewTestPAVAN1</members>
+        <members>SARApexClassTest2</members>
         <members>c3</members>
         <members>pone</members>
         <name>ApexClass</name>
@@ -17,7 +20,14 @@
         <name>AutoResponseRule</name>
     </types>
     <types>
+        <members>standard__Community</members>
+        <members>standard__Service</members>
+        <name>CustomApplication</name>
+    </types>
+    <types>
         <members>ACCObjt1__c.FT1__c</members>
+        <members>Account.Active__c</members>
+        <members>Account.SLA__c</members>
         <members>Demo__c.GoalName__c</members>
         <members>Demo__c.StudentName__c</members>
         <members>custobjobj__c.custobjobjfld2__c</members>
