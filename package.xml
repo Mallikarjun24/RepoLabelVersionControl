@@ -36,6 +36,7 @@
     </types>
     <types>
         <members>ACCL1</members>
+        <members>APXL1</members>
         <members>ARCutLabel1</members>
         <members>ArCustomlabel6</members>
         <members>cokelab</members>
@@ -54,6 +55,7 @@
         <members>Depart__c</members>
         <members>Item__c</members>
         <members>Office__c</members>
+        <members>TestAcob1__c</members>
         <members>cokeobj__c</members>
         <name>CustomObject</name>
     </types>

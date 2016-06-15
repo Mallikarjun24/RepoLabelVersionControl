@@ -64,4 +64,11 @@
         <shortDescription>ArCustomlabel6</shortDescription>
         <value>2</value>
     </labels>
+    <labels>
+        <fullName>APXL1</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>APXL1</shortDescription>
+        <value>1</value>
+    </labels>
 </CustomLabels>
