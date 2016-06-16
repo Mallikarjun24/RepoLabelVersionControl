@@ -12,6 +12,7 @@
     <types>
         <members>Case.CaseRule1</members>
         <members>Case.Standard</members>
+        <members>Lead.Standard</members>
         <name>AssignmentRule</name>
     </types>
     <types>
@@ -27,6 +28,8 @@
     <types>
         <members>ACCObjt1__c.FT1__c</members>
         <members>Account.Active__c</members>
+        <members>Account.CustomerPriority__c</members>
+        <members>Account.NumberofLocations__c</members>
         <members>Account.SLA__c</members>
         <members>Demo__c.GoalName__c</members>
         <members>Demo__c.StudentName__c</members>
