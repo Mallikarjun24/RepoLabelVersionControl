@@ -33,6 +33,9 @@
         <members>Account.SLA__c</members>
         <members>Demo__c.GoalName__c</members>
         <members>Demo__c.StudentName__c</members>
+        <members>Opportunity.MainCompetitors__c</members>
+        <members>Opportunity.OrderNumber__c</members>
+        <members>Opportunity.TrackingNumber__c</members>
         <members>custobja__c.custfld1__c</members>
         <members>custobja__c.customfld2__c</members>
         <members>custobjobj__c.custobjobjfld2__c</members>
