@@ -10,4 +10,14 @@
         <type>Text</type>
         <unique>false</unique>
     </fields>
+    <fields>
+        <fullName>customfld2__c</fullName>
+        <externalId>false</externalId>
+        <label>customfld2</label>
+        <length>19</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
 </CustomObject>
