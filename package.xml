@@ -40,6 +40,8 @@
         <members>custobja__c.customfld2__c</members>
         <members>custobjb__c.custfld1__c</members>
         <members>custobjb__c.custfld2__c</members>
+        <members>custobjb__c.custfld3__c</members>
+        <members>custobjb__c.custfld4__c</members>
         <members>custobjc__c.custfld1__c</members>
         <members>custobjc__c.custfld2__c</members>
         <members>custobjc__c.custfld3__c</members>
