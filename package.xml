@@ -33,6 +33,7 @@
         <members>Account.SLA__c</members>
         <members>Demo__c.GoalName__c</members>
         <members>Demo__c.StudentName__c</members>
+        <members>Lead.SICCode__c</members>
         <members>Opportunity.MainCompetitors__c</members>
         <members>Opportunity.OrderNumber__c</members>
         <members>Opportunity.TrackingNumber__c</members>
