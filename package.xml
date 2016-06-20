@@ -48,6 +48,8 @@
         <members>custobjc__c.custfld4__c</members>
         <members>custobjd__c.custfld1__c</members>
         <members>custobjd__c.custfld2__c</members>
+        <members>custobjd__c.custfld3__c</members>
+        <members>custobjd__c.custfld4__c</members>
         <members>custobjobj__c.custobjobjfld2__c</members>
         <members>custobjobj__c.custobjobjfld__c</members>
         <name>CustomField</name>
