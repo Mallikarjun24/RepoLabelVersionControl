@@ -31,6 +31,8 @@
         <members>Account.CustomerPriority__c</members>
         <members>Account.NumberofLocations__c</members>
         <members>Account.SLA__c</members>
+        <members>Case.Product__c</members>
+        <members>Case.SLAViolation__c</members>
         <members>Demo__c.GoalName__c</members>
         <members>Demo__c.StudentName__c</members>
         <members>Lead.ProductInterest__c</members>
