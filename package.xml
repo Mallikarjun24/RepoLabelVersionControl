@@ -35,6 +35,7 @@
         <members>Account.CustomerPriority__c</members>
         <members>Account.NumberofLocations__c</members>
         <members>Account.SLA__c</members>
+        <members>Account.UpsellOpportunity__c</members>
         <members>Demo__c.GoalName__c</members>
         <members>Demo__c.StudentName__c</members>
         <members>custobja__c.custfld1__c</members>
