@@ -23,6 +23,7 @@
     <types>
         <members>standard__Community</members>
         <members>standard__Content</members>
+        <members>standard__Platform</members>
         <members>standard__Sales</members>
         <members>standard__Service</members>
         <members>standard__ServiceConsole</members>
