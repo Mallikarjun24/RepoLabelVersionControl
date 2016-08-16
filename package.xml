@@ -25,6 +25,9 @@
         <members>standard__Platform</members>
         <members>standard__Sales</members>
         <members>standard__Service</members>
+        <members>standard__ServiceConsole</members>
+        <members>standard__Sites</members>
+        <members>standard__Work</members>
         <name>CustomApplication</name>
     </types>
     <types>
