@@ -24,6 +24,10 @@
         <name>AutoResponseRule</name>
     </types>
     <types>
+        <members>Internal Zone</members>
+        <name>Community</name>
+    </types>
+    <types>
         <members>standard__Community</members>
         <members>standard__Content</members>
         <members>standard__Insights</members>
