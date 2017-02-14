@@ -1,16 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
-    <version>37.0</version>
-    <types>
-        <members>A1</members>
-        <members>A1123</members>
-        <members>A12</members>
-        <members>Test1</members>
-        <members>Test2</members>
-        <members>a0testclass</members>
-        <members>a1testclass</members>
-        <name>ApexClass</name>
-    </types>
     <types>
         <members>AppSwitcher</members>
         <members>Salesforce1</members>
@@ -40,14 +29,14 @@
         <members>standard__Chatter</members>
         <members>standard__Community</members>
         <members>standard__Content</members>
-        <members>standard__Insights</members>
+        <members>standard__LightningSalesConsole</members>
+        <members>standard__LightningService</members>
         <members>standard__Marketing</members>
         <members>standard__Platform</members>
         <members>standard__Sales</members>
         <members>standard__Service</members>
         <members>standard__ServiceConsole</members>
         <members>standard__Sites</members>
-        <members>standard__Work</members>
         <name>CustomApplication</name>
     </types>
     <types>
@@ -68,7 +57,6 @@
         <members>Contact.Languages__c</members>
         <members>Contact.Level__c</members>
         <members>Goal.OrigGoalId__c</members>
-        <members>Lead.AutorabitExtId__c</members>
         <members>Lead.CurrentGenerators__c</members>
         <members>Lead.NumberofLocations__c</members>
         <members>Lead.Primary__c</members>
@@ -81,20 +69,6 @@
         <members>Opportunity.MainCompetitors__c</members>
         <members>Opportunity.OrderNumber__c</members>
         <members>Opportunity.TrackingNumber__c</members>
-        <members>custobja__c.custfld1__c</members>
-        <members>custobja__c.customfld2__c</members>
-        <members>custobjb__c.custfld1__c</members>
-        <members>custobjb__c.custfld2__c</members>
-        <members>custobjb__c.custfld3__c</members>
-        <members>custobjb__c.custfld4__c</members>
-        <members>custobjc__c.custfld1__c</members>
-        <members>custobjc__c.custfld2__c</members>
-        <members>custobjc__c.custfld3__c</members>
-        <members>custobjc__c.custfld4__c</members>
-        <members>custobjd__c.custfld1__c</members>
-        <members>custobjd__c.custfld2__c</members>
-        <members>custobjd__c.custfld3__c</members>
-        <members>custobjd__c.custfld4__c</members>
         <name>CustomField</name>
     </types>
     <types>
@@ -148,34 +122,10 @@
         <members>Task</members>
         <members>User</members>
         <members>UserProvisioningRequest</members>
-        <members>custobja__c</members>
-        <members>custobjb__c</members>
-        <members>custobjc__c</members>
-        <members>custobjd__c</members>
         <name>CustomObject</name>
     </types>
     <types>
-        <members>custobja__c-en_US</members>
-        <members>custobjb__c-en_US</members>
-        <members>custobjc__c-en_US</members>
-        <members>custobjd__c-en_US</members>
-        <name>CustomObjectTranslation</name>
-    </types>
-    <types>
         <members>unfiled$public</members>
-        <members>unfiled$public/MarketingProductInquiryResponse</members>
-        <members>unfiled$public/SUPPORTSelfServiceNewCommentNotificationSAMPLE</members>
-        <members>unfiled$public/SUPPORTSelfServiceNewUserLoginInformationSAMPLE</members>
-        <members>unfiled$public/SUPPORTSelfServiceResetPasswordSAMPLE</members>
-        <members>unfiled$public/SalesNewCustomerEmail</members>
-        <members>unfiled$public/SupportCaseAssignmentNotification</members>
-        <members>unfiled$public/SupportCaseCreatedPhoneInquiries</members>
-        <members>unfiled$public/SupportCaseCreatedWebInquiries</members>
-        <members>unfiled$public/SupportCaseResponse</members>
-        <members>unfiled$public/SupportEscalatedCaseNotification</members>
-        <members>unfiled$public/SupportEscalatedCaseReassignment</members>
-        <members>unfiled$public/SupportSelfServiceNewLoginandPassword</members>
-        <members>unfiled$public/SupportSelfServiceResetPassword</members>
         <name>EmailTemplate</name>
     </types>
     <types>
@@ -187,12 +137,13 @@
         <name>EscalationRules</name>
     </types>
     <types>
-        <members>DE Default</members>
-        <name>HomePageLayout</name>
+        <members>LightningSalesConsole_UtilityBar</members>
+        <members>LightningService_UtilityBar</members>
+        <name>FlexiPage</name>
     </types>
     <types>
-        <members>sf_com_apps</members>
-        <name>InstalledPackage</name>
+        <members>DE Default</members>
+        <name>HomePageLayout</name>
     </types>
     <types>
         <members>Account-Account %28Marketing%29 Layout</members>
@@ -217,7 +168,6 @@
         <members>DuplicateRecordSet-Duplicate Record Set Layout</members>
         <members>EmailMessage-Email Message Layout</members>
         <members>Event-Event Layout</members>
-        <members>FeedItem-Feed Item Layout</members>
         <members>Global-Global Layout</members>
         <members>Idea-Idea Layout</members>
         <members>Lead-Lead %28Marketing%29 Layout</members>
@@ -235,19 +185,12 @@
         <members>Pricebook2-Price Book Layout</members>
         <members>PricebookEntry-Price Book Entry Layout</members>
         <members>Product2-Product Layout</members>
-        <members>SocialPersona-Social Persona Layout</members>
-        <members>SocialPost-Social Post Layout</members>
         <members>Solution-Solution Layout</members>
         <members>Task-Task Layout</members>
         <members>User-User Layout</members>
-        <members>UserAlt-User Profile Layout</members>
         <members>UserProvAccount-User Provisioning Account Layout</members>
         <members>UserProvisioningLog-User Provisioning Log Layout</members>
         <members>UserProvisioningRequest-User Provisioning Request Layout</members>
-        <members>custobja__c-custobja Layout</members>
-        <members>custobjb__c-custobjb Layout</members>
-        <members>custobjc__c-custobjc Layout</members>
-        <members>custobjd__c-custobjd Layout</members>
         <name>Layout</name>
     </types>
     <types>
@@ -279,7 +222,6 @@
         <members>Contract.MyActivatedContracts</members>
         <members>Contract.MyDraftContracts</members>
         <members>Contract.MyInApprovalContracts</members>
-        <members>Idea.Ideas_Last_7_Days</members>
         <members>Lead.AllOpenLeads</members>
         <members>Lead.MyUnreadLeads</members>
         <members>Lead.TodaysLeads</members>
@@ -374,6 +316,7 @@
         <members>NewNote</members>
         <members>NewOpportunity</members>
         <members>NewTask</members>
+        <members>SendEmail</members>
         <members>Task.Defer</members>
         <members>Task.Defer_0</members>
         <members>Task.EditDescription</members>
@@ -392,6 +335,10 @@
     <types>
         <members>ApexDevNet</members>
         <name>RemoteSiteSetting</name>
+    </types>
+    <types>
+        <members>unfiled$public</members>
+        <name>Report</name>
     </types>
     <types>
         <members>CEO</members>
@@ -416,33 +363,6 @@
     </types>
     <types>
         <members>Account</members>
-        <members>Activities</members>
-        <members>Address</members>
-        <members>BusinessHours</members>
-        <members>Case</members>
-        <members>Company</members>
-        <members>Contract</members>
-        <members>Entitlement</members>
-        <members>Forecasting</members>
-        <members>Ideas</members>
-        <members>Knowledge</members>
-        <members>LeadConvert</members>
-        <members>LiveAgent</members>
-        <members>Mobile</members>
-        <members>Name</members>
-        <members>Opportunity</members>
-        <members>Order</members>
-        <members>OrgPreference</members>
-        <members>PathAssistant</members>
-        <members>PersonalJourney</members>
-        <members>Product</members>
-        <members>Quote</members>
-        <members>Search</members>
-        <members>Security</members>
-        <name>Settings</name>
-    </types>
-    <types>
-        <members>Account</members>
         <members>Asset</members>
         <members>Campaign</members>
         <members>Case</members>
@@ -451,11 +371,13 @@
         <members>Opportunity</members>
         <members>Order</members>
         <members>User</members>
-        <members>custobja__c</members>
-        <members>custobjb__c</members>
-        <members>custobjc__c</members>
-        <members>custobjd__c</members>
         <name>SharingRules</name>
+    </types>
+    <types>
+        <members>Account.AccountName_validation</members>
+        <members>Account.rule1</members>
+        <members>Account.rule2</members>
+        <name>ValidationRule</name>
     </types>
     <types>
         <members>Account.Billing</members>
@@ -499,10 +421,40 @@
         <members>User</members>
         <members>UserLicense</members>
         <members>UserProvisioningRequest</members>
-        <members>custobja__c</members>
-        <members>custobjb__c</members>
-        <members>custobjc__c</members>
-        <members>custobjd__c</members>
         <name>Workflow</name>
     </types>
+    <types>
+        <members>Account.Account Number is not null</members>
+        <members>Account.Account Number should not be less than or equal to 4 and not greater than or equal to 10</members>
+        <members>Account.Account name is not equalt to %22ABC%22</members>
+        <members>Account.billing city check</members>
+        <name>WorkflowRule</name>
+    </types>
+    <types>
+        <members>Account</members>
+        <members>Activities</members>
+        <members>Address</members>
+        <members>BusinessHours</members>
+        <members>Case</members>
+        <members>Company</members>
+        <members>Contract</members>
+        <members>Entitlement</members>
+        <members>Forecasting</members>
+        <members>Ideas</members>
+        <members>Knowledge</members>
+        <members>LiveAgent</members>
+        <members>Mobile</members>
+        <members>Name</members>
+        <members>Opportunity</members>
+        <members>Order</members>
+        <members>OrgPreference</members>
+        <members>PathAssistant</members>
+        <members>PersonalJourney</members>
+        <members>Product</members>
+        <members>Quote</members>
+        <members>Search</members>
+        <members>Security</members>
+        <name>Settings</name>
+    </types>
+    <version>37.0</version>
 </Package>

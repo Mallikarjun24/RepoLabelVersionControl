@@ -114,6 +114,7 @@
             </picklistValues>
             <sorted>false</sorted>
         </picklist>
+        <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
         <type>Picklist</type>
     </fields>
@@ -159,6 +160,7 @@
             </picklistValues>
             <sorted>false</sorted>
         </picklist>
+        <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
         <type>Picklist</type>
     </fields>
@@ -445,6 +447,7 @@
             </picklistValues>
             <sorted>false</sorted>
         </picklist>
+        <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
         <type>Picklist</type>
     </fields>
@@ -527,6 +530,7 @@
             </picklistValues>
             <sorted>false</sorted>
         </picklist>
+        <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
         <type>Picklist</type>
     </fields>
@@ -597,6 +601,28 @@
         <searchResultsAdditionalFields>CORE.USERS.ALIAS</searchResultsAdditionalFields>
     </searchLayouts>
     <sharingModel>ReadWrite</sharingModel>
+    <validationRules>
+        <fullName>AccountName_validation</fullName>
+        <active>false</active>
+        <description>Account names is not equal to &quot;ABC&quot;</description>
+        <errorConditionFormula>Name  = &quot;ABC&quot;</errorConditionFormula>
+        <errorMessage>Account names is not equal to &quot;ABC&quot;</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>rule1</fullName>
+        <active>false</active>
+        <errorConditionFormula>AccountNumber  = &apos;&apos;</errorConditionFormula>
+        <errorMessage>Account Number  is not empty</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>rule2</fullName>
+        <active>false</active>
+        <errorConditionFormula>OR
+(
+ LEN(AccountNumber) &lt;4, LEN(AccountNumber) &gt;9 
+)</errorConditionFormula>
+        <errorMessage>length of AccountNumber should be the range between 3 and 9</errorMessage>
+    </validationRules>
     <webLinks>
         <fullName>Billing</fullName>
         <availability>online</availability>
