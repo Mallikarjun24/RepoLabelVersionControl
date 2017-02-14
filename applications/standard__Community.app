@@ -10,4 +10,5 @@
     <tab>standard-report</tab>
     <tab>standard-Dashboard</tab>
     <tab>standard-Questions</tab>
+    <tab>standard-Questions1</tab>
 </CustomApplication>
